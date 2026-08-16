@@ -4,6 +4,9 @@
   "description": "This is backend for ZippyX App",
   "main": "src/server.js",
   "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "npx nodemon --delay 500ms",
